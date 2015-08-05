@@ -11,3 +11,4 @@ mtcars %>%
         fill = input_select(label = "Choose fill variable:", 
                             choices = names(mtcars), map = as.name)) %>% 
   layer_points()
+
